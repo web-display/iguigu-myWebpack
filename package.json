@@ -4,6 +4,11 @@
 	"main": "index.js",
 	"license": "MIT",
 	"scripts": {
-		"build": "node ./scripts/build.js"
+		"build": "node ./scripts/build.js",
+		"debug": "node --inspect-brk ./scripts/build.js"
+	},
+	"devDependencies": {
+		"@babel/parser": "^7.16.8",
+		"@babel/traverse": "^7.16.8"
 	}
 }
