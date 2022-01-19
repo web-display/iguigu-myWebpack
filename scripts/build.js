@@ -1,4 +1,4 @@
-const myWebpack = require( '../lib/myWebpack-modular' )
+const myWebpack = require( '../lib/myWebpack-recursion' )
 const config = require( '../config/webpack.config' )
 
 const compiler = myWebpack( config )
